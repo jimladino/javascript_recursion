@@ -15,7 +15,6 @@ function wordCombine(list) {
   }
   var keys = Object.keys(newList);
   var ky = keys.length
-  var objAdd = keys.length
 
   for(var k = 1; k < list.length; k++) {
     for(var x = 0; x < ky; x++) {
